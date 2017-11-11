@@ -7,8 +7,11 @@ rgm@calx066(/data/desardata3/Y3A1){1073}> du -hs
 
 rsync -e ssh -vutrn /data/desardata3/Y3A1/ rm21@login-knl.hpc.cam.ac.uk:/clincloud/des-uk/Y3A1/
 
+login: ssh rm21@login-knl.hpc.cam.ac.uk
+
 On HPCS
-rsync -e ssh -vutrn rgm@muon5.ast.cam.ac.uk:/data/desardata3/Y3A2_DEEP/ /clincloud/des-uk/Y3A2_DEEP/
+
+[rm21@login-e-5 ~]$ rsync -e ssh -vutrn rgm@muon5.ast.cam.ac.uk:/data/desardata3/Y3A1/ /clincloud/des-uk/Y3A1
 
 login: ssh rm21@login-knl.hpc.cam.ac.uk
 
