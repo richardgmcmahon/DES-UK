@@ -16,3 +16,9 @@ On HPCS
 login: ssh rm21@login-knl.hpc.cam.ac.uk
 
 cd /clincloud/des-uk/
+
+Installing personal copy of Anaconda
+The URL from Contiuum will be something like
+wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh
+
+bash Anaconda2-5.0.1-Linux-x86_64.sh
